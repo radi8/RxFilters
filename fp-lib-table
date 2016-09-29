@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name relays_G)(type KiCad)(uri /home/gvj/KicadLibrarys/modules/relays_G.pretty)(options "")(descr ""))
+  (lib (name Connectors_G)(type KiCad)(uri /home/gvj/KicadLibrarys/modules/Connectors_G.pretty)(options "")(descr ""))
+)
