@@ -1,4 +1,4 @@
-update=Thu 29 Sep 2016 14:21:47 NZDT
+update=Fri 30 Sep 2016 20:15:08 NZDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -115,3 +115,13 @@ LibName29=valves
 LibName30=relays_G
 LibName31=Rx_Filter_Board-rescue
 LibName32=/home/gvj/Kicad/KicadLibrarys/library/relays_G
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
