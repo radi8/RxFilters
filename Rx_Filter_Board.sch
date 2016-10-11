@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Rx_Filter_Board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:relays_G
-LIBS:Rx_Filter_Board-rescue
+LIBS:74xx_gj
 LIBS:Rx_Filter_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Receive Filter Board"
 Date "17 oct 2013"
 Rev "02"
@@ -822,9 +823,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 2600 2350 3300
 Wire Wire Line
-	4350 3300 2350 3300
+	2350 3300 4350 3300
 Wire Wire Line
-	4350 2600 4350 3300
+	4350 3300 4350 2600
 Wire Wire Line
 	2000 2900 2350 2900
 Connection ~ 2350 2900
@@ -872,9 +873,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 3950 2350 4650
 Wire Wire Line
-	4350 4650 2350 4650
+	2350 4650 4350 4650
 Wire Wire Line
-	4350 3950 4350 4650
+	4350 4650 4350 3950
 Wire Wire Line
 	2000 4250 2350 4250
 Connection ~ 2350 4250
@@ -922,9 +923,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 5350 2350 6050
 Wire Wire Line
-	4350 6050 2350 6050
+	2350 6050 4350 6050
 Wire Wire Line
-	4350 5350 4350 6050
+	4350 6050 4350 5350
 Wire Wire Line
 	2000 5650 2350 5650
 Connection ~ 2350 5650
@@ -969,9 +970,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 1250 2350 1950
 Wire Wire Line
-	4350 1950 2350 1950
+	2350 1950 4350 1950
 Wire Wire Line
-	4350 1250 4350 1950
+	4350 1950 4350 1250
 Wire Wire Line
 	2000 1550 2350 1550
 Connection ~ 2350 1550
@@ -1525,9 +1526,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 6750 2350 7450
 Wire Wire Line
-	4350 7450 2350 7450
+	2350 7450 4350 7450
 Wire Wire Line
-	4350 6750 4350 7450
+	4350 7450 4350 6750
 Wire Wire Line
 	2000 7050 2350 7050
 Connection ~ 2350 7050
@@ -2287,4 +2288,12 @@ NoConn ~ 4350 3650
 NoConn ~ 4350 2400
 NoConn ~ 2350 2300
 NoConn ~ 2350 1050
+$Sheet
+S 8600 6650 2550 400 
+U 57FC0F36
+F0 "Sheet_LCD_Serial" 60
+F1 "file_LCD_Serial.sch" 60
+$EndSheet
+NoConn ~ 4350 950 
+NoConn ~ 1800 -400
 $EndSCHEMATC
